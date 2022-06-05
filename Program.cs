@@ -79,7 +79,7 @@ namespace Ex.Suplimentar_Laborator5_
                 {
                     medieMare = medieCurenta;
                     rezultat = String.Empty;
-                    rezultat = "Elevul " + numePrenume[indexElevi] + " " + numePrenume[indexElevi + 1] + " a avut cea mai mare medie, respectiv " + medieMare.ToString() + ".";
+                    rezultat = "Elevul " + numePrenume[indexElevi] + " " + numePrenume[indexElevi + 1] + " a avut cea mai mare medie, respectiv " + medieMare.ToString("n2") + ".";
                 }
                 indexElevi += 2;
             }
